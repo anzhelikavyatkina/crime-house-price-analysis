@@ -22,3 +22,8 @@ key.pub
 *.crt
 *.cer
 .env
+
+# Virtual Environments
+.venv/
+venv/
+env/
