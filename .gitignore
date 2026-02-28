@@ -1,0 +1,24 @@
+# Ignore large data (>50MB)
+data/
+*.csv
+*.tsv
+*.xlsx
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+
+# Mac
+.DS_Store
+
+# Secrets / Keys
+key
+key.pub
+*.pem
+*.key
+*.p12
+*.crt
+*.cer
+.env
