@@ -261,11 +261,13 @@ While Random Forest achieved the strongest performance, ensemble models reduce t
 
 ## Project Structure
 
-├── notebooks/ # Jupyter analysis
-├── data/ # Raw data (needs to be downloaded)
-├── images/ # Saved visualisations
-├── requirements.txt
-├── README.md
+crime-house-price-analysis/
+│
+├── notebooks/ # Data analysis and modelling
+├── data/ # Datasets
+├── images/ # Exported plots and figures
+├── requirements.txt # Project dependencies
+└── README.md # Project documentation
 
 ## Tech Stack
 
