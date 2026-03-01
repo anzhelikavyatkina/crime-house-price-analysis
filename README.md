@@ -279,7 +279,3 @@ crime-house-price-analysis/
 - **Visualisation:** Matplotlib, Seaborn
 - **Machine Learning:** scikit-learn (Linear/Polynomial Regression, KNN, Decision Tree, Random Forest, KMeans, DBSCAN)
 - **Evaluation:** R², RMSE, MAE, Silhouette Score, Calinski–Harabasz, Confusion Matrix
-
-```
-
-```
