@@ -261,6 +261,7 @@ While Random Forest achieved the strongest performance, ensemble models reduce t
 
 ## Project Structure
 
+```
 crime-house-price-analysis/
 │
 ├── notebooks/ # Data analysis and modelling
@@ -268,6 +269,7 @@ crime-house-price-analysis/
 ├── images/ # Exported plots and figures
 ├── requirements.txt # Project dependencies
 └── README.md # Project documentation
+```
 
 ## Tech Stack
 
@@ -277,3 +279,7 @@ crime-house-price-analysis/
 - **Visualisation:** Matplotlib, Seaborn
 - **Machine Learning:** scikit-learn (Linear/Polynomial Regression, KNN, Decision Tree, Random Forest, KMeans, DBSCAN)
 - **Evaluation:** R², RMSE, MAE, Silhouette Score, Calinski–Harabasz, Confusion Matrix
+
+```
+
+```
