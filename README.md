@@ -154,19 +154,19 @@ Random Forest substantially outperformed Decision Tree across all evaluation met
 
 2. Feature Importance (Random Forest)
 
-<img src="feature_importances_random_forest.png" width="700">
+<img src="images/feature_importances_random_forest.png" width="700">
 
 Distance to CBD emerged as the dominant predictor, followed by structural property attributes and median income. Crime-related variables showed relatively low importance.
 
 3. Suburb Clustering (KMeans)
 
-<img src="kMeans_cluster.png" width="700">
+<img src="images/kMeans_cluster.png" width="700">
 
 Clustering revealed meaningful socio-economic groupings of suburbs, with clear differences in price distributions across clusters.
 
 4. Price Category Classification (Confusion Matrix)
 
-<img src="confusion_matrix_random_forest.png" width="700">
+<img src="images/confusion_matrix_random_forest.png" width="700">
 
 The classifier performed well on "Low" and "High" price categories but struggled with the "Medium" class due to overlapping feature distributions.
 
