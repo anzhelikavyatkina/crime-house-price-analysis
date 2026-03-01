@@ -13,6 +13,7 @@ Both supervised and unsupervised learning approaches are applied:
 - Tree-based models (Decision Tree, Random Forest) are applied to model complex, non-linear relationships and interaction effects between socio-economic and property variables.
 
 The comparative evaluation is designed to demonstrate the limitations of linear regression in capturing suburb-level heterogeneity and interaction effects.
+The best-performing model (Random Forest) achieved R² = 0.7285, showing strong non-linear effects dominated by location and property structure.
 
 ## Research Questions
 
@@ -248,7 +249,7 @@ Although the dataset spans six years, observations were treated independently. F
 
 3. Poor performance on Medium price classification:
 
-The categorical price classifier struggled with the “Medium” class, likely due to overlapping feature ranges and class imbalance.
+The price-category classifier struggled to separate the Medium class (feature overlap + class imbalance), suggesting that categorical features alone lack resolution for mid-range pricing.
 
 4. Loss of detail due to suburb-level aggregation:
 
@@ -268,39 +269,9 @@ While Random Forest achieved the strongest performance, ensemble models reduce t
 
 ## Tech Stack
 
-Programming & Environment:
-
-- Python
-- Jupyter Notebook
-- Git
-
-Data Processing & Analysis:
-
-- pandas
-- NumPy
-- SciPy
-
-Machine Learning:
-
-- scikit-learn
-- Linear Regression
-- Polynomial Regression
-- K-Nearest Neighbors (KNN)
-- Decision Tree Regressor
-- Random Forest (Regressor & Classifier)
-- KMeans
-- DBSCAN
-
-Visualisation:
-
-- Matplotlib
-- Seaborn
-
-Evaluation & Metrics:
-
-- R²
-- RMSE
-- MAE
-- Silhouette Score
-- Calinski-Harabasz Index
-- Confusion Matrix
+- **Language:** Python
+- **Environment:** Jupyter Notebook, Git/GitHub
+- **Data Processing:** pandas, NumPy
+- **Visualisation:** Matplotlib, Seaborn
+- **Machine Learning:** scikit-learn (Linear/Polynomial Regression, KNN, Decision Tree, Random Forest, KMeans, DBSCAN)
+- **Evaluation:** R², RMSE, MAE, Silhouette Score, Calinski–Harabasz, Confusion Matrix
